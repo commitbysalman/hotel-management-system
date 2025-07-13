@@ -8,10 +8,10 @@ public class Conn {
 
     public Conn(){
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelMS", "root", "9481478032S@l");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelMS", "root", "");
             statement = connection.createStatement();
         }catch (Exception e){
-            System.out.println("Error");
+            e.printStackTrace();
         }
     }
 
