@@ -11,7 +11,7 @@ public class Conn {
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hotelMS", "root", "9481478032S@l");
             statement = connection.createStatement();
         }catch (Exception e){
-            e.printStackTrace();
+            System.out.println("Error");
         }
     }
 

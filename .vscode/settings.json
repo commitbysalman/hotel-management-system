@@ -1,19 +1,25 @@
 {
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "MYSQL root",
-            "database": "hotelMS",
-            "username": "root",
-            "connectionTimeout": 30,
-            "password": "9481478032S@l"
-        }
-    ]
+  // SQLTools MySQL connection (for browsing your DB inside VS Code)
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "MYSQL root",
+      "database": "hotelMS",
+      "username": "root",
+      "connectionTimeout": 30,
+      "password": "9481478032S@l"
+    }
+  ],
+
+  // Java classpath configuration — include all .jar files inside lib/
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ]
 }
