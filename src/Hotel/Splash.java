@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Splash extends JFrame {
     Splash(){
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("splash.gif"));
+        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/splash.gif"));
         JLabel label = new JLabel(imageIcon);
         label.setBounds(0,0,858,680);
         add(label);
