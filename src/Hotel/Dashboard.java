@@ -24,21 +24,21 @@ public class Dashboard extends JFrame implements ActionListener {
         add.addActionListener(this);
         add(add);
 
-        ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("boss.png"));
+        ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("icon/boss.png"));
         Image i2 = i11.getImage().getScaledInstance(200,195, Image.SCALE_DEFAULT);
         ImageIcon imageIcon11 = new ImageIcon(i2);
         JLabel label1 = new JLabel(imageIcon11);
         label1.setBounds(850,300,200,195);
         add(label1);
 
-        ImageIcon i111 = new ImageIcon(ClassLoader.getSystemResource("Reception.png"));
+        ImageIcon i111 = new ImageIcon(ClassLoader.getSystemResource("icon/Reception.png"));
         Image i22 = i111.getImage().getScaledInstance(200,195, Image.SCALE_DEFAULT);
         ImageIcon imageIcon111 = new ImageIcon(i22);
         JLabel label11 = new JLabel(imageIcon111);
         label11.setBounds(400,300,200,195);
         add(label11);
 
-        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("Dashboard.gif"));
+        ImageIcon imageIcon = new ImageIcon(ClassLoader.getSystemResource("icon/Dashboard.gif"));
         Image i1 = imageIcon.getImage().getScaledInstance(1950,1090, Image.SCALE_DEFAULT);
         ImageIcon imageIcon1 = new ImageIcon(i1);
         JLabel label = new JLabel(imageIcon1);
